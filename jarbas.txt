@@ -1,0 +1,10 @@
+
+O inferno das dependências consiste na hipotese de seu projeto ser impactado por mudanças externas ao seu codigo e que podem comprometer a sua execução;
+No caso Jarbas, ao tentar rodar o comando que popula o banco com os dados dos reembolsos, um novo contribuidor se deparou com um erro ao tentar carregar os dados de reembolsos como descrito na issue #223 do Jarbas.
+O comando que três dias antes funcionava como esperado não funcionava mais (para nossa surpresa). Duas coisas chamaram atenção nesse momento:
+Nenhuma alteração tinha sido feita nesse comando ou em algo que esse comando dependesse nos últimos pull requests aceitos;
+O traceback mostrava que o erro acontecia exatamente a linha que usava uma função de uma biblioteca externa;
+
+o PyUP é muito eficiente para gerenciar o repositorio dos itens de configuração;
+
+Encontrei uma ferramenta similar chamada docplayer
