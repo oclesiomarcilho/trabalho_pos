@@ -1,2 +1,4 @@
 Oclésio da Silveira Marcilho
 RA: 618110313
+Esse trabalho tem por objetivo verificar o conhecimento adquirido para se utilizar a ferramenta git
+final de trabalho
